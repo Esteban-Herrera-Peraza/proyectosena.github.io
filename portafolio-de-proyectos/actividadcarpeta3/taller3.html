@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>grouping block elements</title>
+        <style type="text/css">
+        .gallery { text-transform: uppercase; color: #2449c6;}
+        div#pheader { color: #ff6666;}
+        div#pfooter { color: #72d27c;}
+        </style>
+    </head>
+    <body>
+        <div id="pheader"> <p>el elemento &lt;div&gt; permite agrupar un conjunto de elementos 
+            juntos en un cuadro de nivel de bloque, por ejemplo, puede crear un elemento 
+            &lt;div&gt; para que contenga todos los elementos del encabezado del sitio (el 
+            logotipo y la nevegacion) , o puede crear un elemento &lt;div&gt; para que contenga 
+            la informacion en bloques.</p>
+        </div><!--final del div pheader-->
+        <div id="pbody"><p>un navegador, el contenido del elemento &lt;div&gt; comenzara en 
+            una nueva linea, pero aparte de esto no hara ninguna diferencia en la presentacion
+            de la pagina <span class="gallery"> sin embargo, el uso de un atributo ID o CLASS en el 
+            elemento &lt;div&gt; significa que puede crear reglas estilo css para indicar cuanto
+            espacio debe ocupar el elemento &lt;div&gt; en la pantalla y cambiar la apariencia de 
+            todos los elemntos contenidos en el.</span> tambien puede facilitar el seqguimiento del 
+            codigo si se ha utlizado elementos &lt;div&gt; para contener cada seccion de la pagina.
+        </p></div><!--final del div pbody-->
+        <div id="pfooter"><p>dado que pueden haber varios elementos dentro de un elemento
+            &lt;div&gt; puede ser util agregar un comentario despues de la etiqueta &lt;&#47;div&gt;
+            de cierre. Esto le permite ver claramente a que etiqueta de apertura se supone que corresponde 
+        </p></div><!--final del divpfooter-->
+
+    </body>
+</html>
